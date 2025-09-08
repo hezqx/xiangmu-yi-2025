@@ -1,0 +1,35 @@
+# 项目管理记录
+
+## 2025年操作记录
+
+### Git仓库初始化 - 2025-01-27
+- 时间：2025-01-27
+- 操作：Git仓库初始化
+- 仓库名：项目一
+- 初始提交哈希：49cb7c5d0670a567452658972d9a4a8cacfd99c9
+- 状态：完成
+
+### GitHub仓库创建和推送 - 2025-01-27
+- 时间：2025-01-27
+- 操作：创建GitHub远程仓库并推送所有文件
+- 仓库名：xiangmu-yi-2025
+- 仓库地址：https://github.com/hezqx/xiangmu-yi-2025
+- 推送方式：通过GitHub MCP API
+- 推送文件：README.md, index.html, css/common.css, js/common.js, js/jquery.min.js, docs/index.md, sjadmin.txt
+- 最终提交哈希：06ddc7e145a3215ca1d2009071295248ae747f37
+- 状态：完成
+
+### 文件结构
+```
+├── index.html         # 项目入口页面
+├── css/
+│   └── common.css     # 公用样式
+├── js/
+│   ├── common.js      # 公用脚本
+│   └── jquery.min.js  # jQuery库
+├── docs/              # 文档文件夹
+├── images/            # 图片资源
+├── pages/             # 页面文件夹
+├── README.md          # 项目说明
+└── sjladmin.txt       # 管理记录
+```
