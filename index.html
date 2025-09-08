@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业网站</title>
+    <link rel="stylesheet" href="css/common.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <h1>企业LOGO</h1>
+                </div>
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link nav__link--active">首页</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">关于我们</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">产品服务</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">新闻资讯</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">联系我们</a></li>
+                    </ul>
+                </nav>
+                <div class="header__mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 轮播图区域 -->
+    <section class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="slide__content">
+                    <h2 class="slide__title">专业服务 值得信赖</h2>
+                    <p class="slide__desc">为您提供最优质的产品和服务解决方案</p>
+                    <a href="#" class="slide__btn">了解更多</a>
+                </div>
+                <div class="slide__bg" style="background-image: url('images/333_03.jpg')"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slide__content">
+                    <h2 class="slide__title">创新技术 引领未来</h2>
+                    <p class="slide__desc">持续创新，为客户创造更大价值</p>
+                    <a href="#" class="slide__btn">了解更多</a>
+                </div>
+                <div class="slide__bg" style="background-image: url('images/333_03.jpg')"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slide__content">
+                    <h2 class="slide__title">品质保证 服务至上</h2>
+                    <p class="slide__desc">严格的质量控制，完善的售后服务</p>
+                    <a href="#" class="slide__btn">了解更多</a>
+                </div>
+                <div class="slide__bg" style="background-image: url('images/333_03.jpg')"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slide__content">
+                    <h2 class="slide__title">合作共赢 共创辉煌</h2>
+                    <p class="slide__desc">与合作伙伴携手共进，实现互利共赢</p>
+                    <a href="#" class="slide__btn">了解更多</a>
+                </div>
+                <div class="slide__bg" style="background-image: url('images/333_03.jpg')"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slide__content">
+                    <h2 class="slide__title">专业团队 精益求精</h2>
+                    <p class="slide__desc">拥有专业的技术团队，追求卓越品质</p>
+                    <a href="#" class="slide__btn">了解更多</a>
+                </div>
+                <div class="slide__bg" style="background-image: url('images/333_03.jpg')"></div>
+            </div>
+        </div>
+        <!-- 分页器 -->
+        <div class="swiper-pagination"></div>
+        <!-- 导航按钮 -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </section>
+
+    <!-- 产品展示Tab区域 -->
+    <section class="product-tabs">
+        <div class="container">
+            <div class="product-tabs__header">
+                <h2 class="section__title">产品展示</h2>
+                <div class="tabs__nav">
+                    <button class="tab__btn tab__btn--active" data-tab="tab1">产品系列一</button>
+                    <button class="tab__btn" data-tab="tab2">产品系列二</button>
+                    <button class="tab__btn" data-tab="tab3">产品系列三</button>
+                </div>
+            </div>
+            <div class="tabs__content">
+                <div class="tab__panel tab__panel--active" id="tab1">
+                    <div class="product__grid">
+                        <div class="product__item">
+                            <img src="images/333_03.jpg" alt="产品1" class="product__img">
+                            <h3 class="product__title">产品名称1</h3>
+                            <p class="product__desc">产品描述信息，展示产品的主要特点和优势。</p>
+                        </div>
+                        <div class="product__item">
+                            <img src="images/333_03.jpg" alt="产品2" class="product__img">
+                            <h3 class="product__title">产品名称2</h3>
+                            <p class="product__desc">产品描述信息，展示产品的主要特点和优势。</p>
+                        </div>
+                        <div class="product__item">
+                            <img src="images/333_03.jpg" alt="产品3" class="product__img">
+                            <h3 class="product__title">产品名称3</h3>
+                            <p class="product__desc">产品描述信息，展示产品的主要特点和优势。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__panel" id="tab2">
+                    <div class="product__grid">
+                        <div class="product__item">
+                            <img src="images/333_03.jpg" alt="产品4" class="product__img">
+                            <h3 class="product__title">产品名称4</h3>
+                            <p class="product__desc">第二系列产品描述信息，展示产品的主要特点。</p>
+                        </div>
+                        <div class="product__item">
+                            <img src="images/333_03.jpg" alt="产品5" class="product__img">
+                            <h3 class="product__title">产品名称5</h3>
+                            <p class="product__desc">第二系列产品描述信息，展示产品的主要特点。</p>
+                        </div>
+                        <div class="product__item">
+                            <img src="images/333_03.jpg" alt="产品6" class="product__img">
+                            <h3 class="product__title">产品名称6</h3>
+                            <p class="product__desc">第二系列产品描述信息，展示产品的主要特点。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__panel" id="tab3">
+                    <div class="product__grid">
+                        <div class="product__item">
+                            <img src="images/333_03.jpg" alt="产品7" class="product__img">
+                            <h3 class="product__title">产品名称7</h3>
+                            <p class="product__desc">第三系列产品描述信息，展示产品的主要特点。</p>
+                        </div>
+                        <div class="product__item">
+                            <img src="images/333_03.jpg" alt="产品8" class="product__img">
+                            <h3 class="product__title">产品名称8</h3>
+                            <p class="product__desc">第三系列产品描述信息，展示产品的主要特点。</p>
+                        </div>
+                        <div class="product__item">
+                            <img src="images/333_03.jpg" alt="产品9" class="product__img">
+                            <h3 class="product__title">产品名称9</h3>
+                            <p class="product__desc">第三系列产品描述信息，展示产品的主要特点。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3>企业名称</h3>
+                    <p>版权所有 © 2025 企业名称 保留所有权利</p>
+                </div>
+                <div class="footer__links">
+                    <a href="#">隐私政策</a>
+                    <a href="#">服务条款</a>
+                    <a href="#">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

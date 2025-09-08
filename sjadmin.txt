@@ -1,0 +1,30 @@
+# 项目管理记录
+
+## 2025年操作记录
+
+### Git仓库初始化 - 2025-01-27
+- 时间：2025-01-27
+- 操作：Git仓库初始化
+- 仓库名：项目一
+- 初始提交哈希：49cb7c5d0670a567452658972d9a4a8cacfd99c9
+- 状态：完成
+
+### GitHub仓库推送 - 2025-01-27
+- 时间：2025-01-27
+- 操作：推送到GitHub远程仓库
+- 仓库地址：https://github.com/hezqx/xiangmu-yi-2025
+- 状态：完成
+
+### 文件结构
+```
+├── index.html         # 项目入口页面
+├── css/
+│   └── common.css     # 公用样式
+├── js/
+│   ├── common.js      # 公用脚本
+│   └── jquery.min.js  # jQuery库
+├── docs/              # 文档文件夹
+├── images/            # 图片资源
+├── README.md          # 项目说明
+└── sjadmin.txt        # 管理记录
+```
